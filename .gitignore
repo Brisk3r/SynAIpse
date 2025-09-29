@@ -1,0 +1,3 @@
+This file tells Git which files to ignore.
+We don't want to upload our downloaded dependencies.
+node_modules
