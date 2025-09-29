@@ -1,0 +1,7 @@
+# This file tells Netlify where to find our serverless function.
+[functions]
+directory = "netlify/functions"
+
+# This new section increases the timeout for our specific function.
+[functions."generate-campaign"]
+timeout = 25
